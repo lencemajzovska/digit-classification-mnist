@@ -115,7 +115,8 @@ with st.expander("🔍 Så använder du appen"):
 col1, col2, col3 = st.columns([2, 2, 4])
 
 with col1:
-    st.markdown("<h4 style='width: 100%; text-align: center;'>🎨 Rita din siffra:</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='width: 90%; text-align: center;'>🎨 Rita din siffra:</h4>", unsafe_allow_html=True)
+    
     canvas_result = st_canvas(
         fill_color="white",
         stroke_width=stroke_width,
@@ -166,7 +167,7 @@ else:
 
 # Kolumn 2
 with col2:
-    st.markdown("<h4 style='width: 90%, text-align: center;'>🤖 Modellen gissar:</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='width: 90%; text-align: center;'>🤖 Modellen gissar:</h4>", unsafe_allow_html=True)
 
     prediction = st.session_state.prediction
     if prediction is not None:
