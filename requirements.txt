@@ -5,4 +5,8 @@ pandas
 altair
 Pillow
 joblib
+requests
 gdown
+scikit-learn
+matplotlib
+seaborn
