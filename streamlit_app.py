@@ -112,7 +112,6 @@ with st.expander("🔍 Så använder du appen"):
     - 📊 **Sannolikheter** visas till höger.
     """)
 
-
 # Kolumn 1
 col1, col2, col3 = st.columns([2, 2, 4])
 
@@ -458,5 +457,4 @@ with col3:
 
 
 # Info-ruta
->>>>>>> 812bf4f29198d2cad64998181e1c61a384ed781d
 st.info("💡 Tips: För bästa resultat – rita långsamt och tydligt.")
