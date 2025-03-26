@@ -105,7 +105,7 @@ col1, col2, col3 = st.columns([2, 2, 4])
 
 # --- Kolumn 1: Canvas ---
 with col1:
-    st.markdown("<h4 style='width: 90%; text-align: center;'>🎨 Rita din siffra:</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: left;'>🎨 Rita din siffra:</h4>", unsafe_allow_html=True)
 
     canvas_result = st_canvas(
         fill_color="white",
@@ -146,7 +146,7 @@ if canvas_result.image_data is not None:
 
 # --- Kolumn 2: Prediktion ---
 with col2:
-    st.markdown("<h4 style='width: 90%; text-align: center;'>🤖 Modellens gissning:</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: left;'>🤖 Modellens gissning:</h4>", unsafe_allow_html=True)
 
     prediction = st.session_state.prediction
     if prediction is not None:
