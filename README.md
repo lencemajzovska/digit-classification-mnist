@@ -28,6 +28,6 @@ Detta projekt syftar till att klassificera handskrivna siffror med hjälp av mas
 streamlit run streamlit/streamlit_app.py
 
 🌐 Live-demo
-Öppna Streamlit-appen här(https://ds24ml-8r59cjjwdshqsdstsrp7ig.streamlit.app)
+[Öppna Streamlit-appen här] (https://ds24ml-8r59cjjwdshqsdstsrp7ig.streamlit.app)
 
 
