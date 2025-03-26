@@ -20,9 +20,6 @@ Detta projekt syftar till att klassificera handskrivna siffror med hjälp av mas
 - Få en förutsägelse i realtid
 - Visualisering av sannolikheter
 
-## 📂 Struktur
-
-
 ## 🚀 Starta Streamlit-appen
 ```bash
 streamlit run streamlit/streamlit_app.py
