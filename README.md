@@ -1,29 +1,29 @@
-# ds24_ml
+# Digit Classification with Machine Learning
 
-# Klassificering av handskrivna siffror med maskininlärning
+This project focuses on classifying handwritten digits using machine learning. It is based on the MNIST dataset and compares three models: Logistic Regression, Random Forest, and Extra Trees. The best-performing model (Extra Trees) is implemented in an interactive Streamlit application for real-time predictions.
 
-Detta projekt syftar till att klassificera handskrivna siffror med hjälp av maskininlärning. Projektet bygger på MNIST-datasetet och jämför tre modeller: Logistic Regression, Random Forest och Extra Trees. Den bäst presterande modellen (Extra Trees) implementeras i en interaktiv Streamlit-applikation för realtidsförutsägelser.
-
-## 🧠 Använda modeller
+## 🧠 Models used
 - Logistic Regression
 - Random Forest
-- Extra Trees (valdes som bästa modell)
+- Extra Trees (selected as the best model)
 
-## 📦 Tekniker och bibliotek
+## 📦 Technologies and libraries
 - Scikit-learn
-- PCA för dimensionalitetsreduktion
-- GridSearchCV för hyperparameteroptimering
-- Streamlit för användargränssnitt
+- PCA for dimensionality reduction
+- GridSearchCV for hyperparameter tuning
+- Streamlit for the user interface
 
-## 🎯 Funktioner i Streamlit-appen
-- Rita en siffra direkt i webbläsaren
-- Få en förutsägelse i realtid
-- Visualisering av sannolikheter
+## 🎯 Features of the Streamlit app
+- Draw a digit directly in the browser
+- Get real-time predictions
+- Probability visualization
 
-## 🚀 Starta Streamlit-appen
+
+## 🚀 Run the Streamlit app
 ```bash
 streamlit run streamlit/streamlit_app.py
 ```
 
-## 🌐 Live demo  
-[Öppna Streamlit-appen här](https://streamlit.app)
+## 🌐 Live demo
+[Open the Streamlit app](https://ds24ml-8r59cjjwdshqsdstsrp7ig.streamlit.app)
+
