@@ -27,3 +27,7 @@ streamlit run streamlit/streamlit_app.py
 
 ## 🌐 Live demo  
 [Öppna Streamlit-appen här](https://streamlit.app)
+
+
+![image](https://github.com/user-attachments/assets/9130aec4-8576-4c7d-8934-b6993cfd55e0)
+
