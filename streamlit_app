@@ -56,7 +56,7 @@ def preprocess_canvas(img):
     img = enhancer.enhance(1)
 
     img_array = np.array(img)
-    threshold = 3.5
+    threshold = 9.5
     img_array = np.where(img_array < threshold, 0, 255).astype("uint8")
 
     return img_array.reshape(1, 784)
