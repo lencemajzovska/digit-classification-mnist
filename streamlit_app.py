@@ -40,9 +40,9 @@ def load_model():
                 st.error("❌ Filen laddades inte ner korrekt.")
                 raise FileNotFoundError("Filen finns inte efter nedladdning.")
 
-        return joblib.load(MODEL_PATH), True
-    else:
-        return joblib.load(MODEL_PATH), False
+    return joblib.load(MODEL_PATH)
+
+model = load_model()
 
 # --- Preprocessing ---
 def preprocess_canvas(img):
