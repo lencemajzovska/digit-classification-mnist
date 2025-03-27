@@ -29,7 +29,7 @@ FILE_ID = "17l9LqfvC0q8tRs37XnhPPNeAHaf8iCrU"
 @st.cache_resource
 def load_model():
     if not os.path.exists(MODEL_PATH):
-        with st.spinner("🔽 Laddar ner modellen..."):
+        with st.spinner("🔽 Laddar ner modellen"):
             try:
                 gdown.download(id=FILE_ID, output=MODEL_PATH, quiet=True, fuzzy=True, use_cookies=False)
             except Exception as e:
@@ -40,11 +40,9 @@ def load_model():
                 st.error("❌ Filen laddades inte ner korrekt.")
                 raise FileNotFoundError("Filen finns inte efter nedladdning.")
 
-            st.success("✅ Modell nedladdad!")
-
-    return joblib.load(MODEL_PATH)
-
-model = load_model()
+        return joblib.load(MODEL_PATH), True
+    else:
+        return joblib.load(MODEL_PATH), False
 
 # --- Preprocessing ---
 def preprocess_canvas(img):
