@@ -4,6 +4,11 @@ Educational machine learning project created as part of my Data Science studies.
 
 ---
 
+## Live demo
+👉 [Open the Streamlit app](https://ds24ml-8r59cjjwdshqsdstsrp7ig.streamlit.app)
+
+---
+
 ## Project Description
 
 The project includes both the development and evaluation of machine learning models for digit classification, as well as the deployment of the best model in an interactive Streamlit web application.
@@ -37,6 +42,8 @@ Three different models were compared: Logistic Regression, Random Forest, and Ex
 
 ---
 
-## Live demo
-👉 [Open the Streamlit app](https://ds24ml-8r59cjjwdshqsdstsrp7ig.streamlit.app)
+## Developer
+
+Lence Majzovska
+Data Science Student, EC Utbildning 2025
 
