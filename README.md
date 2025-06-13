@@ -42,8 +42,8 @@ Three different models were evaluated: Logistic Regression, Random Forest, and E
 
 ---
 
-## Developer
+## Developer  
 
-Lence Majzovska
+Lence Majzovska  
 Data Science Student, EC Utbildning 2025
 
