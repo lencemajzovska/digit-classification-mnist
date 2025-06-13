@@ -6,7 +6,9 @@ Educational machine learning project created as part of my Data Science studies.
 
 ## Project Description
 
-The goal was to build and evaluate machine learning models for digit classification. Three different models were compared: Logistic Regression, Random Forest, and Extra Trees. After hyperparameter tuning, the Extra Trees model showed the best performance and was implemented in a Streamlit application for real-time predictions.
+The project includes both the development and evaluation of machine learning models for digit classification, as well as the deployment of the best model in an interactive Streamlit web application.
+
+Three different models were compared: Logistic Regression, Random Forest, and Extra Trees. After hyperparameter tuning, the Extra Trees model showed the best performance and was implemented in a Streamlit app for real-time predictions.
 
 ---
 
@@ -38,7 +40,7 @@ The goal was to build and evaluate machine learning models for digit classificat
 ## How to Run the Streamlit App
 
 ```bash
-streamlit run streamlit/streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 ## 🌐 Live demo
