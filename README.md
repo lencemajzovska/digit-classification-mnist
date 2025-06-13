@@ -1,6 +1,6 @@
 # Digit Classification with Machine Learning
 
-Educational machine learning project created as part of my Data Science studies. The project focuses on classifying handwritten digits using the MNIST dataset and compares multiple models to identify the best-performing approach.
+### Educational machine learning project created as part of my Data Science studies. The project focuses on classifying handwritten digits using the MNIST dataset and compares multiple models to identify the best-performing approach.
 
 ---
 
