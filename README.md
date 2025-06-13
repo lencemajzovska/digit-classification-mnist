@@ -37,12 +37,6 @@ Three different models were compared: Logistic Regression, Random Forest, and Ex
 
 ---
 
-## How to Run the Streamlit App
-
-```bash
-streamlit run streamlit_app.py
-```
-
 ## Live demo
 👉 [Open the Streamlit app](https://ds24ml-8r59cjjwdshqsdstsrp7ig.streamlit.app)
 
