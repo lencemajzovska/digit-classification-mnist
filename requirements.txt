@@ -1,0 +1,12 @@
+streamlit
+streamlit-drawable-canvas
+numpy
+pandas
+altair
+Pillow
+joblib
+requests
+gdown
+scikit-learn
+matplotlib
+seaborn

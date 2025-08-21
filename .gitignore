@@ -1,0 +1,15 @@
+# Ignorera stora filer
+*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode-inställningar
+.vscode/
+
+# Virtuell miljö
+.venv/
